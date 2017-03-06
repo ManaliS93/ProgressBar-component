@@ -1,5 +1,7 @@
 
 
+
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -11,16 +13,19 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="padding : 2%;">
 <p>This is the default progress bar with default width ,color, min and max .</p>
 <div id = "progress_1">  
 </div>
+<hr/>
 <p> Can be Added in any div anywhere in the page.</p>
 <div id  = "progress_2" style="margin-left:60%;">
 </div>
+<hr/>
 <p> The progress bar is set up using user inputs for min , max, current value, width and color.</p>
 <div id = "progress_3">
 </div>
+
 <p>The button is used to increase the progress in the progress bar by given parameter. The parameter is currently given as 5. Try clicking the button many times.</p>
 <button id = "btn"> Increase </button>
 <hr/>
@@ -30,9 +35,12 @@
 <button id="colorBtn" >Change Text Color</button>
 <button id="bgcolorBtn" >Change Color</button>
 <button id="widthBtn" >Change Width</button>
+<hr/>
 <p>Test for invalid current value.</p>
+
 <div id  = "progress_5" >
 </div>
+<hr/>
 <p>Simple example to show how the progress bar can be used in simple form filling application.</p>
 <div class="container" >
 <div id = "form-progress-bar" style ="margin: 0px auto;"></div>
@@ -122,7 +130,7 @@
 		  form_pb.addProgress(50); 
 		  var form_container = document.getElementById("form-container");
 		  form_container.innerHTML="";
-		  form_container.innerHTML='You have successfully submitted the form.';
+		  form_container.innerHTML='<h3>You have successfully submitted the form.<h3>';
 		  
 	  
 	  }
