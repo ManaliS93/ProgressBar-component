@@ -1,0 +1,32 @@
+
+.bar-line {
+	text-align:center;
+    font-family:Georgia, serif;
+	height:10%;
+	position:relative;
+	
+	display: inline-block;
+	margin-top:0px;
+	
+	
+	
+	
+}
+.pbcontainer{
+	text-align:center;
+}
+.min-class{
+	display: inline-block;
+	float:center;
+	
+	
+	
+}
+.progress_bar_field{
+	text-align:center;
+	width:100%;
+	border-top:1px solid #e5e5e5;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	box-shadow:2px 1px #e5e5e5;
+}
