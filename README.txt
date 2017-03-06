@@ -1,4 +1,5 @@
 This is an implementation of javascript component to create progress bar.
+The example can be viewd here : https://manalis93.github.io/ProgressBar-component/
 It is implemented using HTML, plain javascript and css.
 To initialize a progress bar, ProgressBar() can be called with following specifications:
 
